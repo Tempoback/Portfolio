@@ -1,0 +1,87 @@
+@media screen and (min-width: 960px) {
+  div#burger-nav {
+    height: 0;
+    overflow: hidden;
+  }
+
+  nav.NoBg {
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 959px) {
+  header nav div.container {
+    width: 0;
+  }
+
+  body {
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  #burger-nav {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin: 0;
+  }
+
+  div#burger-nav {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  header nav ul.open {
+    padding: 10px;
+    color: #999;
+    border-top: 1px solid #4f4f;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  header nav div span {
+    height: 0;
+    overflow: hidden;
+  }
+
+  header div.container2 {
+    width: 0;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .Flex1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .NoBg {
+    background-color: unset;
+  }
+
+  .open2 {
+    background-color: rgba(1, 123, 213, 0.9);
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  header nav ul {
+    height: 0;
+    overflow: hidden;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
