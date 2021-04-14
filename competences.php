@@ -68,41 +68,48 @@
         <!-- Colonne 1 -->
         <div>
             <div>
-                <img src="./Assets/serveur.png" alt="Serveur">
+                <img src="./Assets/systeme.png" alt="Serveur">
                 <div class="titreC">Système</div>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="./Assets/serveur.png" alt="Serveur">
+                <div class="titreC">5</div>
             </div>
         </div>
 
         <!-- Colonne 2 -->
         <div>
             <div>
-                <img src="" alt="">
+                <img src="./Assets/reseau.jpg" alt="Fibre Optique">
+                <div class="titreC">Réseau</div>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="./Assets/serveur.png" alt="Serveur">
+                <div class="titreC">6</div>
             </div>
         </div>
 
         <!-- Colonne 3 -->
         <div>
             <div>
-                <img src="" alt="">
+                <img src="./Assets/management.jpg" alt="Équipe gestion de projet">
+                <div class="titreC">Gestion de Projet</div>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="./Assets/serveur.png" alt="Serveur">
+                <div class="titreC">7</div>
             </div>
         </div>
 
         <!-- Colonne 4 -->
         <div>
             <div>
-                <img src="" alt="">
+                <img src="./Assets/anglais.jpg" alt="Drapeau UK">
+                <div class="titreC">Anglais</div>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="./Assets/serveur.png" alt="Serveur">
+                <div class="titreC">8</div>
             </div>
         </div>
     </main>
