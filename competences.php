@@ -67,13 +67,43 @@
     <main>
         <!-- Colonne 1 -->
         <div>
-            <div>
-                <img src="./Assets/systeme.png" alt="Serveur">
-                <div class="titreC">Système</div>
+
+            <!-- Carte 1 -->
+            <div class="flip-card">
+
+                <!-- Carte 1 retournante -->
+                <div class="flip-card-inner">
+
+                    <!-- Face de la carte -->
+                    <div class="flip-card-front">
+                        <img src="./Assets/systeme.png" alt="Serveur">
+                        <div class="titreC">Système</div>
+                    </div>
+
+                    <!-- Dos de la carte -->
+                    <div class="flip-card-back">
+
+                    </div>
+                </div>
             </div>
-            <div>
-                <img src="./Assets/suiteOffice.png" alt="Office 365">
-                <div class="titreC">Suite Office</div>
+
+            <!-- Carte 5 -->
+            <div class="flip-card">
+
+                <!-- Carte 4 retournante -->
+                <div class="flip-card-inner">
+
+                    <!-- Face de la carte -->
+                    <div class="flip-card-front">
+                        <img src="./Assets/suiteOffice.png" alt="Office 365">
+                        <div class="titreC">Suite Office</div>
+                    </div>
+
+                    <!-- Dos de la carte -->
+                    <div class="flip-card-back">
+
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -98,11 +128,11 @@
                 </div>
             </div>
 
-            <!-- Carte 5 -->
-            <div>
+            <!-- Carte 6 -->
+            <div class="flip-card">
 
-                <!-- Carte 5 retournante -->
-                <div class="flip-card-inner">
+                <!-- Carte 6 retournante -->
+                <div class=" flip-card-inner">
 
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
@@ -112,6 +142,7 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
+                        <p>Coucou je m'appelle Paul</p>
                     </div>
                 </div>
             </div>
@@ -120,27 +151,86 @@
 
         <!-- Colonne 3 -->
         <div>
-            <div>
-                <img src="./Assets/management.jpg" alt="Équipe gestion de projet">
-                <div class="titreC">Gestion de Projet</div>
+
+            <!-- Carte 3 -->
+            <div class="flip-card">
+
+                <!-- Carte 3 retournante -->
+                <div class="flip-card-inner">
+
+                    <!-- Face de la carte -->
+                    <div class="flip-card-front">
+                        <img src="./Assets/management.jpg" alt="Équipe gestion de projet">
+                        <div class="titreC">Gestion de Projet</div>
+                    </div>
+
+                    <!-- Dos de la carte -->
+                    <div class="flip-card-back">
+                    </div>
+
+                </div>
             </div>
-            <div>
-                <img src="./Assets/linux.png" alt="Linux">
-                <div class="titreC">Linux</div>
+
+            <!-- Carte 7 -->
+            <div class="flip-card">
+
+                <!-- Carte 7 retournante -->
+                <div class="flip-card-inner">
+
+                    <!-- Face de la carte -->
+                    <div class="flip-card-front">
+                        <img src="./Assets/linux.png" alt="Linux">
+                        <div class="titreC">Linux</div>
+                    </div>
+
+                    <!-- Dos de la carte -->
+                    <div class="flip-card-back">
+                    </div>
+
+                </div>
             </div>
         </div>
 
         <!-- Colonne 4 -->
         <div>
-            <div>
-                <img src="./Assets/anglais.jpg" alt="Drapeau UK">
-                <div class="titreC">Anglais</div>
+
+            <!-- Carte 4 -->
+            <div class="flip-card">
+
+                <!-- Carte 4 retournante -->
+                <div class="flip-card-inner">
+
+                    <!-- Face de la carte -->
+                    <div class="flip-card-front">
+                        <img src="./Assets/anglais.jpg" alt="Drapeau UK">
+                        <div class="titreC">Anglais</div>
+                    </div>
+
+                    <!-- Dos de la carte -->
+                    <div class="flip-card-back">
+                    </div>
+
+                </div>
             </div>
-            <div>
-                <img src="./Assets/HTML-CSS.jpg" alt="HTML/CSS">
-                <div class="titreC">HTML/CSS</div>
+
+            <!-- Carte 8 -->
+            <div class="flip-card">
+
+                <!-- Carte 8 retournante -->
+                <div class="flip-card-inner">
+
+                    <!-- Face de la carte -->
+                    <div class="flip-card-front">
+                        <img src="./Assets/HTML-CSS.jpg" alt="HTML/CSS">
+                        <div class="titreC">HTML/CSS</div>
+                    </div>
+
+                    <!-- Dos de la carte -->
+                    <div class="flip-card-back">
+                    </div>
+
+                </div>
             </div>
-        </div>
     </main>
 
     <footer>
