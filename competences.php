@@ -65,7 +65,18 @@
     </header>
 
     <main>
-
+        <div class="b">
+            <div class="texte">
+            </div>
+            <div class="texte">
+            </div>
+        </div>
+        <div>
+            <div class="texte">
+            </div>
+            <div class="texte">
+            </div>
+        </div>
     </main>
 
     <footer>
