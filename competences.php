@@ -72,21 +72,50 @@
                 <div class="titreC">Système</div>
             </div>
             <div>
-                <img src="./Assets/serveur.png" alt="Serveur">
-                <div class="titreC">5</div>
+                <img src="./Assets/suiteOffice.png" alt="Office 365">
+                <div class="titreC">Suite Office</div>
             </div>
         </div>
 
         <!-- Colonne 2 -->
         <div>
-            <div>
-                <img src="./Assets/reseau.jpg" alt="Fibre Optique">
-                <div class="titreC">Réseau</div>
+
+            <!-- Carte 2 -->
+            <div class="flip-card">
+
+                <!-- Carte 2 retournante -->
+                <div class="flip-card-inner">
+
+                    <!-- Face de la carte -->
+                    <div class="flip-card-front">
+                        <img src="./Assets/reseau.jpg" alt="Fibre Optique">
+                        <div class="titreC">Réseau</div>
+                    </div>
+
+                    <!-- Dos de la carte -->
+                    <div class="flip-card-back">
+                    </div>
+                </div>
             </div>
+
+            <!-- Carte 5 -->
             <div>
-                <img src="./Assets/serveur.png" alt="Serveur">
-                <div class="titreC">6</div>
+
+                <!-- Carte 5 retournante -->
+                <div class="flip-card-inner">
+
+                    <!-- Face de la carte -->
+                    <div class="flip-card-front">
+                        <img src="./Assets/windows.png" alt="Windows">
+                        <div class="titreC">Windows</div>
+                    </div>
+
+                    <!-- Dos de la carte -->
+                    <div class="flip-card-back">
+                    </div>
+                </div>
             </div>
+
         </div>
 
         <!-- Colonne 3 -->
@@ -96,8 +125,8 @@
                 <div class="titreC">Gestion de Projet</div>
             </div>
             <div>
-                <img src="./Assets/serveur.png" alt="Serveur">
-                <div class="titreC">7</div>
+                <img src="./Assets/linux.png" alt="Linux">
+                <div class="titreC">Linux</div>
             </div>
         </div>
 
@@ -108,8 +137,8 @@
                 <div class="titreC">Anglais</div>
             </div>
             <div>
-                <img src="./Assets/serveur.png" alt="Serveur">
-                <div class="titreC">8</div>
+                <img src="./Assets/HTML-CSS.jpg" alt="HTML/CSS">
+                <div class="titreC">HTML/CSS</div>
             </div>
         </div>
     </main>
