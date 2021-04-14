@@ -8,13 +8,34 @@ main {
 main div {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
-.texte {
-  width: 350px;
-  height: 350px;
-  padding: auto;
-  background-color: rgba(211, 211, 211, 0.8);
+main div div {
+  width: 325px;
+  height: 35vh;
+  background-color: rgba(211, 211, 211, 0.6);
   border-radius: 5%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main img {
+  height: 20vh;
+  border-radius: 100%;
+  margin-top: 5%;
+}
+
+main img:hover {
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+.titreC {
+  padding: 0;
+  margin: 0;
+  height: 25%;
+  justify-content: center;
 }

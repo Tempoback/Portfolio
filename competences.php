@@ -19,7 +19,7 @@
     <title>Mes Compétences</title>
 </head>
 
-<body style="background-image: url(./Assets/Bg1.jpg)">
+<body style="background-color:rgb(169,169,169)">
     <header id="top">
         <nav>
             <span>
@@ -65,16 +65,44 @@
     </header>
 
     <main>
-        <div class="b">
-            <div class="texte">
+        <!-- Colonne 1 -->
+        <div>
+            <div>
+                <img src="./Assets/serveur.png" alt="Serveur">
+                <div class="titreC">Système</div>
             </div>
-            <div class="texte">
+            <div>
+                <img src="" alt="">
             </div>
         </div>
+
+        <!-- Colonne 2 -->
         <div>
-            <div class="texte">
+            <div>
+                <img src="" alt="">
             </div>
-            <div class="texte">
+            <div>
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <!-- Colonne 3 -->
+        <div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
+            </div>
+        </div>
+
+        <!-- Colonne 4 -->
+        <div>
+            <div>
+                <img src="" alt="">
+            </div>
+            <div>
+                <img src="" alt="">
             </div>
         </div>
     </main>
