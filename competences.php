@@ -82,6 +82,13 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
+                        <ul>
+                            <li>Déploiement de serveurs</li>
+                            <li>Masterisation</li>
+                            <li>Déploiement et Configuration clients</li>
+                            <li>Déploiement de systèmes d'exploitations</li>
+                            <li>Veille technologique</li>
+                        </ul>
 
                     </div>
                 </div>
@@ -101,7 +108,12 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
-
+                        <ul>
+                            <li>Word</li>
+                            <li>Excel/VBA</li>
+                            <li>PowerPoint</li>
+                            <li>Outlook</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -124,6 +136,11 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
+                        <ul>
+                            <li>Brassage de prises</li>
+                            <li></li>
+                            <li>Test1</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -142,7 +159,11 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
-                        <p>Coucou je m'appelle Paul</p>
+                        <ul>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -166,6 +187,11 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
+                        <ul>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                        </ul>
                     </div>
 
                 </div>
@@ -185,6 +211,11 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
+                        <ul>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                        </ul>
                     </div>
 
                 </div>
@@ -208,6 +239,11 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
+                        <ul>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                        </ul>
                     </div>
 
                 </div>
@@ -227,6 +263,11 @@
 
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
+                        <ul>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                            <li>Test1</li>
+                        </ul>
                     </div>
 
                 </div>
