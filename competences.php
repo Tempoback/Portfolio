@@ -77,7 +77,7 @@
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
                         <img src="./Assets/systeme.png" alt="Serveur">
-                        <div class="titreC">Système</div>
+                        <div class="titreCompetence">Système</div>
                     </div>
 
                     <!-- Dos de la carte -->
@@ -96,7 +96,7 @@
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
                         <img src="./Assets/suiteOffice.png" alt="Office 365">
-                        <div class="titreC">Suite Office</div>
+                        <div class="titreCompetence">Suite Office</div>
                     </div>
 
                     <!-- Dos de la carte -->
@@ -119,7 +119,7 @@
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
                         <img src="./Assets/reseau.jpg" alt="Fibre Optique">
-                        <div class="titreC">Réseau</div>
+                        <div class="titreCompetence">Réseau</div>
                     </div>
 
                     <!-- Dos de la carte -->
@@ -137,7 +137,7 @@
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
                         <img src="./Assets/windows.png" alt="Windows">
-                        <div class="titreC">Windows</div>
+                        <div class="titreCompetence">Windows</div>
                     </div>
 
                     <!-- Dos de la carte -->
@@ -161,7 +161,7 @@
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
                         <img src="./Assets/management.jpg" alt="Équipe gestion de projet">
-                        <div class="titreC">Gestion de Projet</div>
+                        <div class="titreCompetence">Gestion de Projet</div>
                     </div>
 
                     <!-- Dos de la carte -->
@@ -180,7 +180,7 @@
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
                         <img src="./Assets/linux.png" alt="Linux">
-                        <div class="titreC">Linux</div>
+                        <div class="titreCompetence">Linux</div>
                     </div>
 
                     <!-- Dos de la carte -->
@@ -203,7 +203,7 @@
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
                         <img src="./Assets/anglais.jpg" alt="Drapeau UK">
-                        <div class="titreC">Anglais</div>
+                        <div class="titreCompetence">Anglais</div>
                     </div>
 
                     <!-- Dos de la carte -->
@@ -222,7 +222,7 @@
                     <!-- Face de la carte -->
                     <div class="flip-card-front">
                         <img src="./Assets/HTML-CSS.jpg" alt="HTML/CSS">
-                        <div class="titreC">HTML/CSS</div>
+                        <div class="titreCompetence">HTML/CSS</div>
                     </div>
 
                     <!-- Dos de la carte -->
