@@ -65,15 +65,6 @@
     </header>
 
     <main>
-
-        <p>
-        <div>Bonjour</div>
-        <div>Je m'appelle</div>
-        <div>Paul</div>
-        </p>
-
-
-
     </main>
 
     <footer>
