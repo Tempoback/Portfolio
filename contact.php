@@ -13,6 +13,8 @@ if (isset($_POST['submit'])) {
     mail("contact.tempoback@gmail.com", "Mail de " . $mail, $message, $header);
 }
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -33,10 +35,11 @@ if (isset($_POST['submit'])) {
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
 
 
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer> -->
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+
+    </script>
 
     <title>Contactez moi !</title>
-    </script>
 </head>
 
 <body style="background-image: url(./Assets/Bg1.jpg)">
@@ -107,8 +110,12 @@ if (isset($_POST['submit'])) {
                     <textarea id="texte" name="texte" placeholder="Votre message"></textarea>
                 </div>
                 <div class="dFlex center Pad50">
-                    <input type="submit" name="submit" value="ENVOYER" class="button2 g-recaptcha" data-sitekey="6LeT56caAAAAAJAZmleelee0BI0tDqcWonyMhks4" data-callback='onSubmit' data-action='submit' />
-                    <!-- <button style="height:50px; width:50px" class="g-recaptcha" data-sitekey="6LeT56caAAAAAJAZmleelee0BI0tDqcWonyMhks4" data-callback='onSubmit' data-action='submit'>Euh test</button> -->
+                    <input type="submit" value="Envoyer" class="button2" id="submit-test-form"></input>
+                </div>
+
+                <div>
+                    <div class="g-recaptcha MargT20 MargB30" id="google_recaptcha">
+                    </div>
                 </div>
             </form>
     </main>
@@ -145,10 +152,29 @@ if (isset($_POST['submit'])) {
 <script type="text/javascript" src="./vendor/slick/slick.min.js"></script>
 <script src="./JS/arrow.js"></script>
 <script src="./JS/menu.js"></script>
-<!-- <script>
-    function onSubmit(token) {
-        document.getElementById("contact").submit();
-    }
-</script> -->
+
+
+<script>
+    var onloadCallback = function() {
+        grecaptcha.render('google_recaptcha', {
+            sitekey: '6Le8xMUaAAAAAMY9i3DdQnXiqk6wGyW65i1eE7OS',
+        });
+
+        document
+            .getElementById('submit-test-form').onclick = function(e) {
+                var rcres = grecaptcha.getResponse();
+                if (rcres.length) {
+                    grecaptcha.reset();
+                    console.log('Form Submitted!', 'success');
+                } else {
+                    e.preventDefault();
+                    console.log('Please verify reCAPTCHA', 'error');
+                }
+            };
+    };
+</script>
+
+
+
 
 </html>

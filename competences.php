@@ -137,9 +137,10 @@
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
                         <ul>
-                            <li>Brassage de prises</li>
-                            <li></li>
-                            <li>Test1</li>
+                            <li>Switch Management</li>
+                            <li>Téléphonie IP</li>
+                            <li>Déploiement de Routeurs</li>
+                            <li>Déploiement de Liens</li>
                         </ul>
                     </div>
                 </div>
@@ -160,9 +161,8 @@
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
                         <ul>
-                            <li>Test1</li>
-                            <li>Test1</li>
-                            <li>Test1</li>
+                            <li>Clients</li>
+                            <li>Serveurs</li>
                         </ul>
                     </div>
                 </div>
@@ -188,9 +188,8 @@
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
                         <ul>
-                            <li>Test1</li>
-                            <li>Test1</li>
-                            <li>Test1</li>
+                            <li>Management d'équipe</li>
+                            <li>Répartition de la charge de travail</li>
                         </ul>
                     </div>
 
@@ -212,9 +211,9 @@
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
                         <ul>
-                            <li>Test1</li>
-                            <li>Test1</li>
-                            <li>Test1</li>
+                            <li>Ubuntu</li>
+                            <li>RedHat</li>
+                            <li>Debian</li>
                         </ul>
                     </div>
 
@@ -240,9 +239,9 @@
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
                         <ul>
-                            <li>Test1</li>
-                            <li>Test1</li>
-                            <li>Test1</li>
+                            <li>Fluent</li>
+                            <li>TOEIC rated 800</li>
+                            <li>Several trips to <br> english-spoken countries</li>
                         </ul>
                     </div>
 
@@ -264,9 +263,9 @@
                     <!-- Dos de la carte -->
                     <div class="flip-card-back">
                         <ul>
-                            <li>Test1</li>
-                            <li>Test1</li>
-                            <li>Test1</li>
+                            <li>Front</li>
+                            <li>Back</li>
+                            <li>WordPress</li>
                         </ul>
                     </div>
 
