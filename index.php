@@ -19,7 +19,7 @@
   <title>Portfolio Paul TOUVEREY</title>
 </head>
 
-<body style="background-image: url(./Assets/Bg1.jpg)">
+<body>
   <header id="top">
     <nav>
       <span>
@@ -65,7 +65,8 @@
   </header>
 
   <main>
-    <div class="container0">
+    <div class="typewriter">
+      <h1>Bienvenue sur mon site !</h1>
     </div>
 
   </main>

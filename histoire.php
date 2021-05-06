@@ -164,10 +164,10 @@
                 <div class="para2">
                     <figure>
                         <img src="./Assets/trone.jpg" alt="">
-                        <figcaption>Lycée Bazin</figcaption>
+                        <figcaption>Le trône de fer, but ultime de Game of Thrones</figcaption>
                     </figure>
                     <p>
-                        Je suis un grand fan de plusieurs univers cinématographique, tels que <span>Game Of Thrones, le Marvel Cinematic Universe (MCU) et Doctor Who.</span>
+                        Je suis un grand fan de plusieurs univers cinématographiques, tels que <span>Game Of Thrones, le Marvel Cinematic Universe (MCU) et Doctor Who.</span>
                     </p>
                 </div>
             </div>

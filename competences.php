@@ -19,7 +19,7 @@
     <title>Mes Compétences</title>
 </head>
 
-<body style="background-color:rgb(169,169,169)">
+<body style="background-color:rgb(0, 94, 166)">
     <header id="top">
         <nav>
             <span>

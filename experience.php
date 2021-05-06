@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="./CSS/Utils/test.css" />
     <link rel="stylesheet" href="./CSS/0_Responsive/responsive.css" />
     <link rel="stylesheet" href="./CSS/1_style/style.css" />
-    <link rel="stylesheet" href="./CSS/3_experience/main.css" />
+    <link rel="stylesheet" href="./CSS/4_experience/experience.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
     <title>Mon expérience</title>
 </head>
 
-<body style="background-image: url(./Assets/Bg1.jpg)">
+<body style="background-image: url(./Assets/Bg4.jpg)">
     <header id="top">
         <nav>
             <span>
@@ -65,7 +65,65 @@
     </header>
 
     <main>
-        <div></div>
+        <div class="container Bg2">
+
+            <div>
+                <h3>2020-2021 : Technicien Systèmes et Réseaux – Trekk – 51100 Reims</h3>
+                <p>
+                    Alternance dans le secteur de la TOIP. Déploiement de liens et de TOIP.
+                    Dépannage informatique dans le domaine de la TOIP.
+                </p>
+            </div>
+
+            <div>
+                <h3>Juin 2020 : Stagiaire informatique – CHU – 08000 Charleville Mézières</h3>
+                <p>
+                    CHU 08000 Charleville Mézières
+                    Stage dans le service Informatique pendant 2 semaines. Projet de déploiement de
+                    « Easily » : Passage de postes en W10, déploiement de nouveaux smartphones, mise
+                    en place de nouveaux casques. (Ayant déjà de l’expérience, je devais m’occuper seul
+                    d’un service.)
+                </p>
+            </div>
+
+            <div>
+                <h3>
+                    Juillet 2019 : Manutentionnaire – La Poste – 95700 Roissy en France
+                </h3>
+                <p>
+                    Travail saisonnier pendant 1 mois. Tri des colis et mise en sac.
+                </p>
+            </div>
+
+            <div>
+                <h3>
+                    Mai-Juin 2019 : Stagiaire informatique – CHU – 08000 Charleville Mézières
+                </h3>
+                <p>
+                    Stage dans le service Informatique pendant 2 mois. Découverte du métier et
+                    déploiement d’imprimante sur le CHU de Sedan. (Repérage et brassage de prise)
+                </p>
+            </div>
+
+            <div>
+                <h3>
+                    Juillet 2018 : Manutentionnaire – La Poste – 95700 Roissy en France
+                </h3>
+                <p>
+                    Travail saisonnier pendant 1 mois. Tri des colis et mise en sac.
+                </p>
+            </div>
+
+            <div>
+                <h3>
+                    Juillet 2017 : Manutentionnaire – La Poste – 95700 Roissy en France
+                </h3>
+                <p>
+                    Travail saisonnier pendant 1 semaine. Tri des colis et mise en sac.
+                </p>
+            </div>
+
+        </div>
     </main>
 
     <footer>

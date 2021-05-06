@@ -1,27 +1,29 @@
-main div.autoplay img {
-  height: 67vh;
-  border-radius: 2%;
-  margin-top: 10px;
-}
-
-main div.slider-nav img {
-  height: 15vh;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  border-radius: 2%;
-}
-
-.bloc {
+main {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
-.slider {
-  margin-top: 6px;
-  border-radius: 15px;
-  background: linear-gradient(
-    rgba(208, 208, 208, 0.8),
-    rgba(232, 231, 231, 0.8)
-  );
+.Bg2 {
+  background: rgba(255, 255, 255, 0.8);
+  border-width: 4px;
+  -webkit-box-shadow: 0px 10px 18px -1px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 0px 10px 18px -1px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 10px 3px -1px rgba(0, 0, 0, 0.68);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 70px;
+  margin-top: 25px;
+}
+
+.Bg2 div {
+  width: 75%;
+}
+
+main p,
+main h3 {
+  text-align: center;
 }
