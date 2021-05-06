@@ -1,52 +1,82 @@
-main div div.Height40 {
-  width: 300px;
+body {
+  overflow: hidden; /* Hide scrollbars */
 }
 
-main div div div div {
+main {
+  height: 85%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
 }
 
-main div div div div div {
-  width: 200px;
-  height: 200px;
-  background-color: lightgrey;
-  border-radius: 18%;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
+.Bg2 {
+  background: rgba(255, 255, 255, 0.8);
+  border-width: 4px;
+  -webkit-box-shadow: 0px 10px 18px -1px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 0px 10px 18px -1px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 10px 3px -1px rgba(0, 0, 0, 0.68);
+  height: 65vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-main div div div div div div {
-  width: 150px;
-  height: 150px;
-  background-color: #707070;
-  border-radius: 50%;
+.slider {
+  width: 1000px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgba(0, 0, 0, 0.95);
+  font-size: 25px;
+}
+
+.para2 {
+  padding-top: 75px;
+  padding-bottom: 20px;
+}
+
+.para,
+.para2 {
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
+  justify-content: space-between;
 }
 
-main div div div div.Height40 {
-  border-radius: 0;
-  background-color: #e8e7e7;
-  border-width: 0;
+.para img,
+.para2 img {
+  width: 400px;
 }
 
-main div img {
-  width: 120px;
-  height: 120px;
+.para div {
+  width: 50%;
 }
 
+.para2 p {
+  width: 50%;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/* Responsive */
+/*  */
+/*  */
+/* Responsive */
 @media screen and (max-width: 1150px) {
   main div.container {
     width: 100%;

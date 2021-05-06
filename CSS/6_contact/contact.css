@@ -7,7 +7,7 @@ main div.container {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 75vh;
+  height: 80vh;
   width: 900px;
   margin: auto;
 }
@@ -100,4 +100,15 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: white;
   color: #007efa;
+}
+
+#error {
+  background-color: black;
+  border-radius: 10px;
+  width: 300px;
+  color: red;
+  font-style: italic;
+  display: none;
+  text-align: center;
+  padding: 5px;
 }

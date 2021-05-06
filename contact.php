@@ -109,14 +109,20 @@ if (isset($_POST['submit'])) {
                 <div class="dFlex center Pad20">
                     <textarea id="texte" name="texte" placeholder="Votre message"></textarea>
                 </div>
-                <div class="dFlex center Pad50">
-                    <input type="submit" value="Envoyer" class="button2" id="submit-test-form"></input>
-                </div>
+
 
                 <div>
                     <div class="g-recaptcha MargT20 MargB30" id="google_recaptcha">
                     </div>
+                    <div id="error">
+                        Merci de vérifier le reCaptcha.
+                    </div>
                 </div>
+
+                <div class="dFlex center Pad20">
+                    <input type="submit" value="Envoyer" class="button2" id="submit-test-form"></input>
+                </div>
+
             </form>
     </main>
 
@@ -157,11 +163,12 @@ if (isset($_POST['submit'])) {
 <script>
     var onloadCallback = function() {
         grecaptcha.render('google_recaptcha', {
-            sitekey: '6Le8xMUaAAAAAMY9i3DdQnXiqk6wGyW65i1eE7OS',
+            sitekey: '6LfVxsUaAAAAAPMilrRsScsurgs3awkmd1SN_czk',
         });
 
         document
             .getElementById('submit-test-form').onclick = function(e) {
+                error.style.display = "none";
                 var rcres = grecaptcha.getResponse();
                 if (rcres.length) {
                     grecaptcha.reset();
@@ -169,6 +176,7 @@ if (isset($_POST['submit'])) {
                 } else {
                     e.preventDefault();
                     console.log('Please verify reCAPTCHA', 'error');
+                    error.style.display = "block";
                 }
             };
     };
